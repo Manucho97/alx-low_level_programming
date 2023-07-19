@@ -1,10 +1,12 @@
 #include "main.h"
-/*
-main - entry point
+/**
+ * main - Print "_putchar" followed by a new line
+ * Return: 0 
+ * 
 */
 
 
-int main()
+int main(void)
 {
     char a = '_';
     char b = 'p';
