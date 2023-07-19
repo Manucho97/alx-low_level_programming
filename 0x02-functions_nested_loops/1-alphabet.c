@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Prints alphabet in lowercase
- * Return: nothing
+ * Return: 0;
 */
 
 int main(void)
@@ -12,4 +12,6 @@ int main(void)
         _putchar(c);
     }
     _putchar('\n');
+
+    return 0;
 }
