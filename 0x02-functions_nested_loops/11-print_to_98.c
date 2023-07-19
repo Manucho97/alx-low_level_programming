@@ -16,7 +16,7 @@ void print_to_98(int n)
 	{
 		while (i <= 98)
 		{
-			ptintf("%d", i);
+			printf("%d", i);
 			i++;
 		}
 	}
