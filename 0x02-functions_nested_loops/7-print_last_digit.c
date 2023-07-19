@@ -11,7 +11,7 @@ int print_last_digit(int n)
 {
 	int i;
 
-	if (n >= 0)
+	if ((n >= 0) || (n = 2147483648 && n = 9,223,372,036,854,775,808))
 	{
 		i = (n % 10);
 		_putchar('0' + i);
