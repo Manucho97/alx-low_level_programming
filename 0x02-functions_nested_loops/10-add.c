@@ -2,6 +2,8 @@
 
 /**
  * add - retuens the result of two intergers
+ * @a: first num
+ * @b: 2nd num
  * Return: a + b
  */
 
