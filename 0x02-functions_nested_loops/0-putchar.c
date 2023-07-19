@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * main - Print "_putchar" followed by a new line
- * Return: 0 
- * 
+ * Return: 0
+ *
 */
 
 
