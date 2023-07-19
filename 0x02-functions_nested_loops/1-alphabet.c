@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
  * print_alphabet- Prints alphabet in lowercase
  * Return: nothing
 */
 
 void print_alphabet(void)
+
 {
     char c = 97;
 
@@ -13,5 +15,7 @@ void print_alphabet(void)
         _putchar(c);
         c++;
     }
+
     _putchar('\n');
+
 }
