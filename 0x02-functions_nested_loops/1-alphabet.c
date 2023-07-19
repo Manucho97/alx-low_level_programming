@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Prints alphabet in lowercase
- * Return: 0;
+ * print_alphabet- Prints alphabet in lowercase
+ * Return: nothing
 */
 
-int main(void)
+void print_alphabet(void)
 {
     char c = 97;
     while (c < 123)
@@ -12,6 +12,4 @@ int main(void)
         _putchar(c);
     }
     _putchar('\n');
-
-    return 0;
 }
