@@ -5,7 +5,7 @@
  * 
 */
 
-int _islower(c)
+int _islower(int c)
 {
     if (islower(c))
     {
