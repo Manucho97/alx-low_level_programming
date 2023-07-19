@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * abs - computes the absolute value of a no.
+ * _abs - computes the absolute value of a no.
  * @n: no whoose absolute value is to be determined
  * Return: Absolute valiue of n
  */
@@ -17,7 +17,7 @@ int _abs(int n)
 	}
 	else
 	{
-		return(-n);
+		return (-n);
 	}
 
 }
