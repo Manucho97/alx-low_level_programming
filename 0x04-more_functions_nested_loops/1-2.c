@@ -1,13 +1,29 @@
 #include <stdio.h>
 
+/**
+ * more_numbers - print 0- 14 10times
+ *
+ * Return: 0
+ */
+
+
 int main(void)
 
 {
-    char i;
+	for (int i = 0; i < 10; i++)
+	{
+		for (int j = 0; j <= 14; j++)
+		{
+			if (j >= 10)
+			{
+				putchar('0' + j / 10);
+			}
+			putchar((j % 10) + '0');
 
-    for (i = 48; i < 58; i++)
-    {
-        putchar(i);
-    }
+		}
+		putchar('\n');
+
+	}
     return (0);
+
 }
