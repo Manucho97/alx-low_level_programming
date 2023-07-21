@@ -4,7 +4,7 @@
  * _isdigit - checks whether a
  *  character is digit
  *  @c: digit to be checked
- *  Retur: if its a digit otherwise 0
+ *  Return: if its a digit otherwise 0
  */
 
 
