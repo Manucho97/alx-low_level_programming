@@ -2,7 +2,7 @@
 
 /**
  * main - prints all lwoercase xchers of base 16
- * Return; 0 always
+ * Return: 0 always
  */
 
 
