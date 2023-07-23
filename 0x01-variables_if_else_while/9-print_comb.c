@@ -2,7 +2,7 @@
 
 /**
  * main - prints all posible combinations of single digit
- * Return; 0 always
+ * Return: 0 always
  */
 
 
@@ -14,12 +14,15 @@ int main(void)
 	while (i < 58)
 	{
 		putchar(i);
-		putchar(',');
-		putchar(' ');
+		if (i != 57)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		i++;
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 
 }
