@@ -2,16 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - Entry point */
+/**
+ * main - assigns a random value to n
+*/
 
 int main(void)
-	
+
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n > 0)
 	{
 		printf("%d is positive", n);
@@ -26,6 +28,6 @@ int main(void)
 	}
 
 	printf("\n");
-	
+
 	return (0);
 }
