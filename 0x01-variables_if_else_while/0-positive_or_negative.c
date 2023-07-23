@@ -4,6 +4,8 @@
 
 /**
  * main - assigns a random value to n
+ * 
+ * Return: 0	
 */
 
 int main(void)
