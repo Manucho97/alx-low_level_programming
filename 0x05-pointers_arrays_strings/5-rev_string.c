@@ -32,14 +32,11 @@ for (i = 0; i < lenghth; i++)
 	for (j = lenghth - 1; j >= 0; j--)
 	{
 		sswap(&s[i], &s[j]);
+		_putchar (s[i]);
 
 	}
 	
 
-}
-for (i = 0; i < lenghth; i++)
-{
-	_putchar(s[i]);
 }
 
 }
