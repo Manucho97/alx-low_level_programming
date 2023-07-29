@@ -7,21 +7,33 @@
  */
 
 
+void sswap(char *a, char *b)
+
+{
+	char temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
 void rev_string(char *s)
 
 {
-	int i = 0;
-	int j;
-	char t[];
 
-	while (s[i] != '\0')
+int i, j;
+int lenghth = 0;
+
+while (s[lenghth] != '\0')
+{
+	lenghth++;
+}
+
+for (i = 0; i < j; i++)
+{
+	for (j = lenghth - 1; j > i; j--)
 	{
-		i++;
+		sswap(&s[i], &s[j]);
 	}
-	for (j = i - 1; j >= 0; j--)
-	{
-		t = s[j];
-		s == t;
-	}
+
+}
 
 }
