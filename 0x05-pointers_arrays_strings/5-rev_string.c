@@ -32,8 +32,14 @@ for (i = 0; i < j; i++)
 	for (j = lenghth - 1; j > i; j--)
 	{
 		sswap(&s[i], &s[j]);
-	}
 
+	}
+	
+
+}
+for (i = 0; i < lenghth; i++)
+{
+	_putchar(s[i]);
 }
 
 }
