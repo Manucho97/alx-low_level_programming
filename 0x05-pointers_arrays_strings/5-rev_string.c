@@ -2,6 +2,9 @@
 
 /**
  * rev_string - reverses a string
+ * sswap - swaps two characters
+ * @a: first character
+ * @b: 2nd character
  * @s: the string to be reversed
  * Return: nothing
  */
@@ -27,16 +30,10 @@ while (s[lenghth] != '\0')
 	lenghth++;
 }
 
-for (i = 0; i < lenghth; i++)
+for (i = 0; j = lenghth - 1; i++, j--)
 {
-	for (j = lenghth - 1; j >= 0; j--)
-	{
-		sswap(&s[i], &s[j]);
-		_putchar (s[i]);
-
-	}
-	
-
+	sswap(&s[i], &s[j]);
 }
+_putchar('\n');
 
 }
