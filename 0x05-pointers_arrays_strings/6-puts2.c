@@ -16,7 +16,8 @@ void puts2(char *str)
 	{
 		if (i % 2 != 0)
 		{
-			continue;
+			_putchar("");
+
 		}
 		else
 		{
