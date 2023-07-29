@@ -30,10 +30,10 @@ while (s[lenghth] != '\0')
 	lenghth++;
 }
 
-for (i = 0; i < j; i++)
+for (i = 0; i < lenghth; i++)
 {
 	j = lenghth - 1;
-	while (j > i)
+	while (j >= 0)
 	{
 		sswap(&s[i], &s[j]);
 		j--;
