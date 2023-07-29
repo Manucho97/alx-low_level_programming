@@ -29,7 +29,7 @@ while (s[lenghth] != '\0')
 
 for (i = 0; i < j; i++)
 {
-	for (j = lenghth - 1; j > i; j--)
+	for (j = lenghth - 1; j >= 0; j--)
 	{
 		sswap(&s[i], &s[j]);
 
