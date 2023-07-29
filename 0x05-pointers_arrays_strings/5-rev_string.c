@@ -30,9 +30,13 @@ while (s[lenghth] != '\0')
 	lenghth++;
 }
 
-for (i = 0; j = lenghth - 1; i < j; i++, j--)
+for (i = 0; i < j; i++)
 {
-	sswap(&s[i], &s[j]);
+	for (j = lenghth - 1; j > i; j--)
+	{
+		sswap(s[i], s[j]);
+	}
+	
 }
 _putchar('\n');
 
