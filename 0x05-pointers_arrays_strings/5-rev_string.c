@@ -32,12 +32,13 @@ while (s[lenghth] != '\0')
 
 for (i = 0; i < j; i++)
 {
-	for (j = lenghth - 1; j > i; j--)
+	j = lenghth - 1;
+	while (j > i)
 	{
 		sswap(&s[i], &s[j]);
+		j--;
 	}
 	s++;
 }
-_putchar('\n');
 
 }
