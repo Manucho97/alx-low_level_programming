@@ -36,7 +36,7 @@ for (i = 0; i < j; i++)
 	{
 		sswap(s[i], s[j]);
 	}
-	
+	s++;
 }
 _putchar('\n');
 
