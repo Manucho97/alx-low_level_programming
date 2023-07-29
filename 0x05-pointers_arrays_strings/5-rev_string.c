@@ -27,7 +27,7 @@ while (s[lenghth] != '\0')
 	lenghth++;
 }
 
-for (i = 0; i < j; i++)
+for (i = 0; i < lenghth; i++)
 {
 	for (j = lenghth - 1; j >= 0; j--)
 	{
