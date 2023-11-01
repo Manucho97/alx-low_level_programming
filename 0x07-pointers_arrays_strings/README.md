@@ -1,0 +1,1 @@
+This directory is for alx more pointers assignment
