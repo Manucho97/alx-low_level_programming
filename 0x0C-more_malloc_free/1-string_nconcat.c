@@ -1,6 +1,7 @@
 #include <string.h>
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * string_nconcat - concanates s1 with n charcater of s2
  * @s1: 1st string
@@ -32,6 +33,18 @@ void *string_noncat(char *s1, char *s2, unsigned int n)
     strncat(result, s2, n);
 
     return (result);
+    free(result);
 
 
+}
+
+
+int main(void)
+{
+ char *concat;
+
+    concat = string_nconcat("Best ", "School !!!", 6);
+    printf("%s\n", concat);
+    free(concat);
+    return (0);
 }
