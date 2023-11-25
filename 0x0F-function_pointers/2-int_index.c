@@ -4,11 +4,11 @@
  * int_index - searches for an int and returns the index
  * @array: The array in which to search for the integer
  * @size: size of the array
- * cmp: pointer to a function to find an int
+ * @cmp: pointer to a function to find an int
  */
 
 
-int int_index(int *array, int size, int (*cmp)(int));
+int int_index(int *array, int size, int (*cmp)(int))
 {
 	int index;
 
