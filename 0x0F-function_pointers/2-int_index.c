@@ -5,7 +5,7 @@
  * @array: a pointer to array in which to search for the integer
  * @size: size of the array
  * @cmp: pointer to a function to find an int
- * return: index of the first matching value.
+ * Return: index of the first matching value.
  */
 
 
