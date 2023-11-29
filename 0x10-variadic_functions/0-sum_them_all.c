@@ -2,13 +2,14 @@
 /**
  * sum_them_all - adds all its arguments
  * @n: number of arguments
- * return: 0 if n == 0, sum of all elements
+ * Return: 0 if n == 0, sum of all elements
  */
 
 
 int sum_them_all(unsigned int n, ...)
 {
-	unsigned int x = 0;
+	unsigned int sum = 0;
+
 	va_list args;
 
 	va_start(args, n);
@@ -17,8 +18,10 @@ int sum_them_all(unsigned int n, ...)
 	{
 		if (n == 0)
 		return 0;
-		 x = x + va_arg(args, unsigned int);
+		 sum = sum + va_arg(args, unsigned int);
 
 	}
-	return x;
+	va_end(args);
+
+	return sum;
 }
